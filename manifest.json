@@ -10,7 +10,7 @@
     "128": "icons/icon.png"
   },
   "action": {
-    "default_popup": "src/popup.html",
+    "default_popup": "src/control-panel.html",
     "default_title": "Авто-Подтверждение Присутствия",
     "default_icon": {
       "16": "icons/icon.png",
@@ -24,7 +24,7 @@
       "matches": [
         "<all_urls>"
       ],
-      "js": ["src/core.js", "src/content.js"],
+      "js": ["src/presence-core.js", "src/presence-content.js"],
       "run_at": "document_idle"
     }
   ],

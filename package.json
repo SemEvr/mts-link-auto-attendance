@@ -4,7 +4,7 @@
   "private": true,
   "description": "Авто-подтверждение присутствия: расширение для браузеров и userscript",
   "scripts": {
-    "build": "node build.js",
-    "check": "node --check src/core.js && node --check src/content.js && node --check src/popup.js && node --check src/userscript/adapter.js && node --check build.js"
+    "build": "node build-userscript.js",
+    "check": "node --check src/presence-core.js && node --check src/presence-content.js && node --check src/control-panel.js && node --check src/userscript/userscript-adapter.js && node --check build-userscript.js"
   }
 }

@@ -1,6 +1,6 @@
 // Адаптер userscript: связывает общий движок с GM_getValue / GM_setValue.
-// Этот файл — фрагмент сборки: итоговый скрипт генерируется build.js
-// (заголовок UserScript + src/core.js + этот адаптер).
+// Этот файл — фрагмент сборки: итоговый скрипт генерируется build-userscript.js
+// (заголовок UserScript + src/presence-core.js + этот адаптер).
 (function () {
   'use strict';
 

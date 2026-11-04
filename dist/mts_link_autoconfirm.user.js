@@ -12,8 +12,8 @@
 // @run-at       document-idle
 // ==UserScript==
 
-// AUTO-GENERATED FILE. Не редактируйте вручную: правьте src/core.js и
-// src/userscript/adapter.js, затем запустите `npm run build`.
+// AUTO-GENERATED FILE. Не редактируйте вручную: правьте src/presence-core.js и
+// src/userscript/userscript-adapter.js, затем запустите `npm run build`.
 
 // МТС Линк — Авто-Подтверждение Присутствия (общий движок)
 // Единый источник логики для расширения и userscript.
@@ -440,8 +440,8 @@
 })(typeof window !== 'undefined' ? window : this);
 
 // Адаптер userscript: связывает общий движок с GM_getValue / GM_setValue.
-// Этот файл — фрагмент сборки: итоговый скрипт генерируется build.js
-// (заголовок UserScript + src/core.js + этот адаптер).
+// Этот файл — фрагмент сборки: итоговый скрипт генерируется build-userscript.js
+// (заголовок UserScript + src/presence-core.js + этот адаптер).
 (function () {
   'use strict';
 

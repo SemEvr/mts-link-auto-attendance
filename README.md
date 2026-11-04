@@ -50,11 +50,11 @@ npm run build
 | Путь | Назначение |
 | --- | --- |
 | `manifest.json` | Настройки браузерного расширения |
-| `src/core.js` | Поиск элементов, обработка нажатий и уведомления |
-| `src/content.js` | Подключение движка к расширению |
-| `src/popup.*` | Интерфейс настроек |
-| `src/userscript/adapter.js` | Адаптер менеджера пользовательских скриптов |
-| `build.js` | Сборка userscript |
+| `src/presence-core.js` | Поиск элементов, обработка нажатий и уведомления |
+| `src/presence-content.js` | Подключение движка к расширению |
+| `src/control-panel.*` | Интерфейс настроек |
+| `src/userscript/userscript-adapter.js` | Адаптер менеджера пользовательских скриптов |
+| `build-userscript.js` | Сборка userscript |
 | `dist/mts_link_autoconfirm.user.js` | Результат сборки |
 
 ## Происхождение
@@ -62,4 +62,3 @@ npm run build
 Исходный проект: [VadimSokolovGit/mts_link_auto_attend](https://github.com/VadimSokolovGit/mts_link_auto_attend). История Git сохранена.
 
 В скачанной версии отдельный файл лицензии не найден; новая лицензия в этой копии не назначена.
-
